@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  place-content: center;
+}
+body{
+  background: linear-gradient(to right, #001B68, #001348);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+nav img{
+  width: 10%;
+  height: 100%;
+  left: 2.5%;
+  position: relative;
+}
+
+nav{
+  background-image: linear-gradient(to bottom, #002CA8, #00289A);
+  height: 65px;
+  width: 100%;
+}
+
+nav ul{
+  float: right;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  padding-bottom: 100px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  padding: 5px 11px;
+  font-weight: 600;
+}
+
+nav ul li a:hover{
+  background: linear-gradient(to bottom, #274CB5, #002CA8 85%);
+  transition: all .6s ease;
+  color: #FFEE08;
+  letter-spacing: 5px;
+}
+
+a.active{
+  color: #9EAFDE;
+}
+
+.ar_text{
+  max-width: 725px;
+  margin: 30px auto;
+  position: relative;
+  margin-right: 770px;
+  border-radius: 4px;
+  z-index: 1;
+  font-family: 'Rubik', sans-serif;
+}
+
+#ar_description{
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFD;
+}
+.grid {
+  display: grid;
+  position: absolute;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  left: 100px;
+  text-align: justify;
+  right: 100px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.grid > div{
+  padding: 15px;
+  background: linear-gradient(to top, #C9D2EC, #C9D2EC);
+  color: #002CA8;
+  font-family: 'Rubik', sans-serif;
+}
+
+.box1{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width:400px;
+  height:350px;
+  border-radius: 4px;
+}
+
+#b1{
+  font-size: 23.5px;
+  font-weight: 400;
+}
+
+#b2{
+  font-size: 23.6px;
+  font-weight: 400;
+}
+
+#b3{
+  font-size: 18.1px;
+  font-weight: 400;
+}
+
+#b4{
+  font-size:20px;
+  font-weight: 400;
+}
+
+#b5{
+  font-size: 18.5px;
+  font-weight: 400;
+}
+
+#b6{
+  font-size: 21px;
+  font-weight: 400;
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    background: #FFEE08;
+    color: #001B68;
+    top: 10px;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+button:hover{
+  border: none;
+  border-radius: 4px;
+  background: #001B68;
+  transition: all .6s ease;
+  color: #FFEE08;
+  letter-spacing: 0.5px;
+}
+
+h4{
+  text-align: center;
+  position: relative;
+  top: 7px;
+}
+
+.box2{
+  grid-column: 2/3;
+  grid-row: 1;
+  width:400px;
+  height: 350px;
+  border-radius: 4px;
+  font-size: 23.15px;
+}
+
+.box3{
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background: #ddd;
+  width:400px;
+  height:350px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.box4{
+  grid-column: 1/3;
+  grid-row: 2/3;
+  width:400px;
+  height:350px;
+  font-size: 21px;
+  border-radius: 4px;
+}
+
+
+.box5 {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  width:400px;
+  height:350px;
+  font-size: 19px;
+  border-radius: 4px;
+}
+
+.box6{
+  grid-column: 3/4;
+  grid-row: 2/4;
+  width:400px;
+  height:350px;
+  font-size: 22.5px;
+  border-radius: 4px;
+}
+.gridlabel{
+  display: grid;
+  position: relative;
+  grid-template-columns: 1.5fr;
+  grid-gap: 30px;
+  left: 100px;
+  text-align: left;
+  right: 100px;
+  z-index: 1;
+  margin: 25px auto;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+}

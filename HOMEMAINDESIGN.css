@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  place-content: center;
+}
+body{
+  background: linear-gradient(to right, #001B68, #001348);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+nav img{
+  width: 10%;
+  height: 100%;
+  left: 2.5%;
+  position: relative;
+}
+
+nav{
+  background-image: linear-gradient(to bottom, #002CA8, #00289A);
+  height: 65px;
+  width: 100%;
+}
+
+nav ul{
+  float: right;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  padding-bottom: 100px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  padding: 5px 11px;
+  font-weight: 600;
+}
+
+nav ul li a:hover{
+  background: linear-gradient(to bottom, #274CB5, #002CA8 85%);
+  transition: all .6s ease;
+  color: #FFEE08;
+  letter-spacing: 5px;
+}
+
+a.active{
+  color: #9EAFDE;
+}
+
+
+.h_text{
+  position: relative;
+  margin: 90px 20px auto;
+}
+.h_welcome{
+  font-size: 1.5em;
+  color: #FFFF00;
+  text-shadow: 3px 5px black;
+  grid-column: 2/3;
+  font-family: 'Rubik', sans-serif;
+}
+#h_learnmore{
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  text-align: center;
+  width: 300px;
+  height: 20px;
+  grid-column: 2/3;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #C9D2EC, #C9D2EC);
+  font-weight: 700;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}
+#h_learnmore:hover{
+  background: linear-gradient(to right, #002A9F, #002795);
+  color: white;
+  letter-spacing: 11px;
+  transition: all .4s ease;
+}
+.h_text > #h_intro{
+  margin-top: 0.15em;
+  position: relative;
+  text-align: center;
+  grid-column: 2/3;
+  text-shadow: 2px 2px black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.75em;
+  color: #FFFFFD;
+}
+
+.h_text {
+  width:405px;
+  height:425px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding-right: 500px;
+}
+
+.h_text > .h_w {
+  font-size: 1.9em;
+  text-shadow: 3px 5px black;
+  font-family: 'Rubik', sans-serif;
+  color: #FEDD10;
+}
+
+.grid-homemain {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  max-width: 500px;
+  margin: 200px auto;
+  border-radius: 10px;
+  padding: auto;
+  position: relative;
+}
+
+.grid-homemain > .h_text{
+  padding: 10px;
+  z-index: 3;
+}
+ #pics{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    filter: blur(5px);
+}
